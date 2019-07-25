@@ -1,6 +1,6 @@
 #AWS region
 variable "aws_region" {
-  default = "us-east-1"
+  default = "us-west-2"
 }
 
 variable "environment" {
@@ -9,7 +9,7 @@ variable "environment" {
 
 #key pair name
 variable "key_name" {
-  default = "jenkins-east-1"
+  default = "formacoregon"
 }
 
 variable "ssh_user" {
